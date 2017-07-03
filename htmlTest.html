@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>계산 타</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="coffeeTest.js"></script>
 </head>
 <body>
-    <input type="text"/>
-    <button class="aaa"> 성인인증</button>
-    <p>당신의 나이를 숫자로 입력한 후 성인인증 버튼을 클릭하세요</p>
-    <script src="coffeeTest.js"></script>
+    <form name="sumForm">
+        <p>First Number : </p>
+        <p><input type="text" name="FirstValue" size="20"></p>
+
+        <p>Second Number : </p>
+        <p><input type="text" name="SecondValue" size="20"></p>
+
+        <p><input type="button" name="button" value="Press to calculate" onClick="mul()"></p>
+
+        <p>Answer : </p>
+        <p><input type="text" name="Answer" size="20"></p>
+
+    </form>
+
 </body>
 </html>
